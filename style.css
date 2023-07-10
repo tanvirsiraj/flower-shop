@@ -187,3 +187,53 @@ header .section-description {
   gap: 24px;
 }
 /* instagram section styles end  */
+
+/* subscription section styles start  */
+.subscription-section-content-container {
+  background: url("./flower-asset/Rectangle\ 9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  height: 449px;
+}
+.subscription-section-content {
+  padding-top: 86px;
+}
+.subscription-section-content .section-description {
+  margin-bottom: 20px;
+}
+.subscription-section-content div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 600px;
+  margin-inline: auto;
+}
+.subscription-section-content input[type="email"] {
+  display: block;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  width: 100%;
+  height: 64px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+}
+
+.subscription-section-content input[type="submit"] {
+  display: block;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 31px;
+  height: 64px;
+}
+
+/* subscription section styles end  */
