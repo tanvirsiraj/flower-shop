@@ -154,3 +154,27 @@ header .section-description {
   margin-top: 24px;
 }
 /* delivery section end */
+
+/* discount section start  */
+.discount-section-container {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.discount-section-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.discount-section-content div {
+  padding-block: 50px;
+  text-align: center;
+}
+.discount-section-content .section-title span {
+  color: #e55473;
+}
+.discount-section-content .section-description {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+/* discount section end  */
