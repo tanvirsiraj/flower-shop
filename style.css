@@ -178,3 +178,12 @@ header .section-description {
 }
 
 /* discount section end  */
+
+/* instagram section styles start  */
+.instagram-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+/* instagram section styles end  */
