@@ -1,0 +1,78 @@
+/* common styles  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.wrapper {
+  padding-inline: 230px;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn-primary {
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border: none;
+  cursor: pointer;
+}
+
+/* header styles  start */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  padding-top: 50px;
+  margin-bottom: 178px;
+}
+.header-content {
+  background: url(./flower-asset/pngwing\ 10.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.header-title {
+  color: #272727;
+  font-size: 67px;
+  font-weight: 800;
+  max-width: 700px;
+  margin-top: 50px;
+}
+header .section-description {
+  text-align: left;
+  max-width: 550px;
+  font-size: 16px;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+.header-content .btn-primary {
+  margin-bottom: 80px;
+}
+/* header styles  end */
