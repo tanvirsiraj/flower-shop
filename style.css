@@ -1,4 +1,4 @@
-/* common styles  */
+/* common styles start */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 * {
@@ -46,15 +46,15 @@ body {
 section {
   margin-block: 128px;
 }
+/* common styles end */
 
 /* header styles  start */
 header {
   background: rgba(229, 84, 115, 0.1);
   padding-top: 50px;
-  margin-bottom: 128px;
 }
 .header-content {
-  background: url(./flower-asset/pngwing\ 10.png);
+  background: url("./images/pngwing10.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -223,7 +223,7 @@ header .section-description {
 
 /* subscription section styles start  */
 .subscription-section-content-container {
-  background: url("./flower-asset/Rectangle\ 9.png");
+  background: url("./images/rec9.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 8px;
